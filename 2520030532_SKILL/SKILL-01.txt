@@ -1,0 +1,31 @@
+OPERATING SYSTEMS 
+SKILL-01
+ROLL NO:2520030532
+NAME: CHERUKUMALLI VIVEK
+
+
+
+
+Objective
+
+To install and configure a Linux Virtual Machine, configure GCC, set up a Git repository, create a project structure, understand shell architecture, and build an initial Makefile.
+
+Procedure
+Install and configure the Linux Virtual Machine.
+Open the Linux terminal and verify the system.
+Install GCC compiler.
+Check the GCC installation using:
+gcc --version
+Create a project directory:
+mkdir os-lab
+Move into the project directory:
+cd os-lab
+Initialize a Git repository:
+git init
+Create the required source and header files.
+Understand the basic Linux shell architecture and how commands are executed.
+Create a Makefile for automatic compilation.
+Use the make command to compile the project.
+Result
+
+The Linux VM, GCC compiler, Git repository, project structure, shell environment, and initial Makefile were successfully configured.
