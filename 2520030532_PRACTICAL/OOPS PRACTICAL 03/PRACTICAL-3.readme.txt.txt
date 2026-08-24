@@ -1,0 +1,25 @@
+PRACTICAL-3
+
+2520030532
+Cherukumalli Vivek
+S-07
+
+Lab Summary: Process Creation and Process State Transitions
+
+In this lab, I explored how Linux creates and manages processes using the fork() system call. I also learned how process IDs can be displayed and how process states can be observed using Linux monitoring tools.
+
+Here is a breakdown of what I learned:
+
+* fork(): This system call creates a new child process from the parent process. After fork(), both parent and child processes execute independently.
+
+* getpid(): This function displays the process ID of the currently executing process.
+
+* getppid(): This function displays the parent process ID of the current process.
+
+* ps, top, and /proc: These Linux tools can be used to monitor processes and observe their states during execution.
+
+* Process states: The experiment focuses on Ready, Running, Waiting, and Terminated states. The order in which parent and child processes execute may vary because process scheduling is controlled by the Linux operating system.
+
+Conclusion
+
+Overall, this practical demonstrated how Linux creates and manages processes. It helped me understand parent and child processes, process IDs, and the different stages of process execution.

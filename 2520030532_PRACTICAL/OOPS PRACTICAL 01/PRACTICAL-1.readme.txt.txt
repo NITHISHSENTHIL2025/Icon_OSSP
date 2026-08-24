@@ -1,0 +1,24 @@
+PRACTICAL-1
+
+2520030532
+Cherukumalli Vivek
+S-07
+
+Lab Summary: Linux OS and Hardware Management
+
+In this lab, I explored how the Linux operating system connects with and controls a computer's physical hardware. By running several terminal commands, I was able to understand how Linux manages CPU, storage, processes, and other system resources.
+
+Here is a breakdown of what I learned using different commands:
+
+* uname -a: This command displayed information about the Linux kernel and system architecture. It helped me understand the role of the kernel in managing the system.
+
+* lscpu: This showed details about the processor, including CPU information, cores, and threads. I learned that the operating system manages processor resources for running programs.
+
+* lsblk: This listed the storage devices and partitions available in the system. It helped me understand how Linux manages storage hardware.
+
+* ps and top: The ps command displayed active processes, while top provided a live view of processes and their CPU and memory usage. This helped me understand how Linux monitors and manages running programs.
+
+Conclusion
+
+Overall, this practical demonstrated that the operating system acts as a bridge between software and hardware. Linux manages hardware resources and provides services that allow applications and processes to work efficiently.
+
