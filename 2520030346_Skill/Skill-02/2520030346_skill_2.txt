@@ -1,0 +1,14 @@
+SKILL - 2
+2520030346
+Nithish S
+S-7
+
+The objective is to create a main loop that displays a prompt, reads user input, handles exit conditions, designs the control flow, and tests an interactive loop. The main loop continuously displays a prompt and waits for the user to enter a command. The entered input is stored and processed by the program. An exit condition such as typing `exit` can be used to terminate the loop safely.
+
+The interactive loop follows a simple sequence: display the prompt, read user input, check the input, process the command, and repeat the loop until an exit condition is detected. This control flow helps in building a basic command-line interface and provides continuous interaction between the user and the program.
+
+The second objective is to capture keyboard input, handle the Backspace key, process the Enter key, manage an input buffer, and support multi-character commands. Each key pressed by the user is captured and stored in an input buffer. Normal characters are added to the buffer, while Backspace removes the last character. When the Enter key is pressed, the buffered input is processed as a complete command.
+
+The input buffer allows the program to handle commands containing multiple characters. The program can test different inputs, including normal commands, Backspace operations, empty input, and exit commands, to ensure correct user interaction.
+
+Result: The interactive main loop and keyboard input handling were successfully designed and tested. The program can display a prompt, accept multi-character commands, handle Backspace and Enter keys, process user input, and terminate when the exit condition is satisfied.
