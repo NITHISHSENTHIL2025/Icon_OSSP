@@ -1,6 +1,6 @@
 Practical-6
-Aakash Dadhirao
-2520030337
+G.Sai Sathwik
+2520030328
 S-7
 
 In this practical, we studied Inter-Process Communication (IPC) using FIFO (Named Pipes) and process communication using POSIX signals. FIFO allows two processes to communicate by creating a named pipe using the mkfifo() function. The FIFO can then be opened using open(), with read() used to receive data and write() used to send data between processes. The fork() function can be used to create a child process, while unlink() is used to remove the FIFO after communication is completed.
